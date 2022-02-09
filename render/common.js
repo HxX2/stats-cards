@@ -54,7 +54,7 @@ function renderText(data) {
   return `<text id="${data.id}" transform="translate(${data.translate_x} ${data.translate_y})" fill="${data.color}" font-size="${data.font_size}" font-family="${data.font}" ${weight}><tspan x="0" y="0">${data.text}</tspan></text>\n`;
 }
 
-function constructItem(translate_x, translate_y, text, type, font_size, color = '', font = 'SegoeUI, Segoe UI') {
+function constructItem(translate_x, translate_y, text, type, font_size, color = '', font = 'Trebuchet MS, sans-serif') {
   return {
     translate_x: translate_x,
     translate_y: translate_y,
