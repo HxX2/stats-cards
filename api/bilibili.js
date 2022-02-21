@@ -1,4 +1,4 @@
-const getBilibiliInfo = require('../crawer/bilibili');
+const getBilibiliInfo = require('../crawler/bilibili');
 const renderBilibiliCard = require('../render/bilibili');
 
 module.exports = async (req, res) => {

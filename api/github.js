@@ -1,4 +1,4 @@
-const getGitHubInfo = require('../crawer/github');
+const getGitHubInfo = require('../crawler/github');
 const renderGitHubCard = require('../render/github');
 
 module.exports = async (req, res) => {

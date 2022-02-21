@@ -1,5 +1,5 @@
-const getLeetCodeInfo = require('../crawer/leetcode');
-const getLeetCodeCnInfo = require('../crawer/leetcode-cn');
+const getLeetCodeInfo = require('../crawler/leetcode');
+const getLeetCodeCnInfo = require('../crawler/leetcode-cn');
 const renderLeetCodeCard = require('../render/leetcode');
 
 module.exports = async (req, res) => {

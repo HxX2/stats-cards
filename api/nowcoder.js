@@ -1,4 +1,4 @@
-const getNowCoderInfo = require('../crawer/nowcoder');
+const getNowCoderInfo = require('../crawler/nowcoder');
 const renderNowCoderCard = require('../render/nowcoder');
 
 module.exports = async (req, res) => {

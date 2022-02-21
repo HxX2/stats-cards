@@ -1,4 +1,4 @@
-const getCSDNInfo = require('../crawer/csdn');
+const getCSDNInfo = require('../crawler/csdn');
 const renderCSDNCard = require('../render/csdn');
 
 module.exports = async (req, res) => {

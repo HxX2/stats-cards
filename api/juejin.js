@@ -1,4 +1,4 @@
-const getJuejinInfo = require('../crawer/juejin');
+const getJuejinInfo = require('../crawler/juejin');
 const renderJuejinCard = require('../render/juejin');
 
 module.exports = async (req, res) => {
