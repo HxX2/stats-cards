@@ -4,10 +4,10 @@ function render(items, theme = 'light') {
   let labelColor = '#9e9e9e';
   let valueColor = '#212121';
   if (theme === 'dark') {
-    titleColor = '#FD428D';
-    backgroundColor = '#141321';
-    labelColor = '#A8FDF6';
-    valueColor = '#A8FDF6';
+    titleColor = '#FFEB3B';
+    backgroundColor = '#212122';
+    labelColor = '#C7C5C5';
+    valueColor = '#ffffff';
   }
   let textTags = '';
   for (let i = 0; i < items.length; i++) {
